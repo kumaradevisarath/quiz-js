@@ -1,0 +1,52 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    gap: 20px;
+    text-transform: capitalize;
+    background-color: white;
+    width: 700px;
+    font-size: 19px;
+
+}
+.ques-card{
+    padding: 10px;
+    
+}
+.ques-card h3{
+margin-top: 20px;
+}
+.ques-card input{
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+input #correct{
+ display: hidden;
+}
+#btn{
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 5px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <ol class="container">
+        <h2> interactive quiz</h2>
+        <div class="ques-card">
+            <li>what is the capital of france?</li>
+            <input type="radio" name="option"  id="r1">paris
+            <input type="radio" name="option" >london
+            <input type="radio" name="option" >berlin
+           <div id="correctans"></div>
+            
+        </div>
+        <div class="ques-card">
+            <li>which planet is known as the red planet?</li>
+            <input type="radio" name="option1"  id="r2">mars
+            <input type="radio" name="option1"   >venus
+            <input type="radio" name="option1"  >jupiter
+        </div>
+        <div class="ques-card">
+            <li>what is the largest mammal on earth?</li>
+            <input type="radio" name="option2"  >elephant 
+            <input type="radio" name="option2"  id="r3">blue whale
+            <input type="radio" name="option2"   >giraffe
+        </div>
+        <p id="obtained">you got: score</p>
+        <input type="button" value="submit" id="btn">
+    </ol>
+    <div id="box"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
