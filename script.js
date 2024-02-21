@@ -34,5 +34,5 @@ btn.addEventListener("click", function () {
 
     obtained.innerHTML = "you got:" + score;
     alert("you completed the test and your score is:"+score)
-    box.innerHTML=`<h2>Interactive quiz</h2>`
+    
 })
